@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 75px;
+}
+
+#header-img {
+    width: 65%;
+}
+
+#header-img > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+}
+
+#nav-bar {
+    width: 30%;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+#form > input[type="email"] {
+    background-color: white;
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+}
+
+#form > input[type="submit"], button {
+    background-color: #f1c40f;
+    font-weight: 800;
+    border: none;
+    width: 100%;
+    height: 30px;
+    max-width: 150px;
+}
+
+#features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.desc > p { margin-top: 5px;}
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#how-it-works > #video {
+    max-width: 560px;
+    width: 100%;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    width: calc(100%/4);
+    text-align: center;
+    border: 1px solid black;
+    margin: 40px 30px;
+}
+
+.product > .product-name {
+    background-color: #ddd;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.product > h2, .product > ul li{ padding-top: 10px;}
+
+.product button { 
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ddd;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > ul li {
+    padding: 5px 20px;
+}
+
+footer > span{
+    display: flex;
+    justify-content: flex-end;
+    color: #444
+}
